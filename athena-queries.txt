@@ -5,35 +5,29 @@
 CREATE DATABASE IF NOT EXISTS athena_db;
 
 2. Create table 1:
-CREATE EXTERNAL TABLE IF NOT EXISTS athena_db.procedures (
-  `Procedure_ID` string,
-  `Procedure_Name` string,
+CREATE EXTERNAL TABLE athena_db.procedures (
+  `Procedure_Id` string,
+  `Procedure` string,
   `Category` string,
-  `Price` integer,
-  `Duration` integer,
+  `Price` string,
+  `Duration_Minutes` string,
   `Insurance_Covered` string,
-  `Customer_Id` integer
+  `Customer_Id` string
 )
-ROW FORMAT DELIMITED 
-FIELDS TERMINATED BY ',' 
-LINES TERMINATED BY '\n'
-STORED AS TEXTFILE
-LOCATION 's3://genai-sourcedata-jo4/';
+STORED AS PARQUET
+LOCATION 's3://cjmm-datalake-curated/medical_procedures/procedures/';
 
 
 3. Create table 2:
-CREATE EXTERNAL TABLE IF NOT EXISTS athena_db.customers (
-  `Cust_Id` integer,
-  `Customer_Name` string,
-  `Balance` integer,
-  `Past_Due` integer,
+CREATE EXTERNAL TABLE athena_db.customers (
+  `Cust_Id` string,
+  `Customer` string,
+  `Balance` string,
+  `Past_Due` string,
   `Vip` string
 )
-ROW FORMAT DELIMITED 
-FIELDS TERMINATED BY ',' 
-LINES TERMINATED BY '\n'
-STORED AS TEXTFILE
-LOCATION 's3://genai-sourcedata-jo4/';
+STORED AS PARQUET
+LOCATION 's3://cjmm-datalake-curated/medical_procedures/customers/';
 
 
 

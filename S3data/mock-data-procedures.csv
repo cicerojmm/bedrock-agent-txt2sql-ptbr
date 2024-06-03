@@ -1,4 +1,4 @@
-Procedure_Id,Procedure,Category,Price,Duration(Minutes),Insurance_Covered, Customer_Id
+Procedure_Id,Procedure,Category,Price,Duration(Minutes),Insurance_Covered,Customer_Id
 0001,General Consultation,consultation,100,30,yes,001
 0002,X-Ray,imaging,200,15,no,001
 0003,Blood Test,laboratory,50,10,yes,002
@@ -19,3 +19,118 @@ Procedure_Id,Procedure,Category,Price,Duration(Minutes),Insurance_Covered, Custo
 0018,CT Scan,imaging,500,30,no,002
 0019,Root Canal,dental,800,90,yes,005
 0020,Cataract Surgery,surgery,2500,60,yes,002
+0021,Physical Examination,consultation,120,45,yes,006
+0022,Colonoscopy,surgery,1200,60,no,007
+0023,Electrocardiogram,imaging,150,20,yes,008
+0024,Intravenous Therapy,rehabilitation,200,90,yes,009
+0025,Influenza Test,laboratory,60,10,yes,010
+0026,Braces Adjustment,dental,80,30,no,011
+0027,Hip Replacement,surgery,10000,180,no,012
+0028,Speech Therapy,rehabilitation,80,60,yes,013
+0029,Hepatitis Screening,laboratory,120,30,yes,014
+0030,Mammogram,imaging,250,20,no,015
+0031,Teeth Whitening,dental,200,45,no,016
+0032,Appendectomy,surgery,6000,120,no,017
+0033,Occupational Therapy,rehabilitation,150,60,yes,018
+0034,Prostate Exam,consultation,80,30,yes,019
+0035,Lung Function Test,laboratory,100,15,yes,020
+0036,Spinal Fusion,surgery,8000,180,no,021
+0037,Cardiac Stress Test,imaging,350,45,no,022
+0038,Tooth Extraction,dental,150,60,yes,023
+0039,Psychological Evaluation,consultation,200,60,yes,024
+0040,Chemotherapy,rehabilitation,5000,180,yes,025
+0041,ENT Examination,consultation,150,45,yes,026
+0042,Endoscopy,surgery,3000,90,no,027
+0043,CT Angiography,imaging,700,60,no,028
+0044,Occupational Therapy Session,rehabilitation,120,60,yes,029
+0045,Glucose Test,laboratory,40,10,yes,030
+0046,Root Planing and Scaling,dental,200,90,yes,031
+0047,Laser Eye Surgery,surgery,4000,60,yes,032
+0048,Speech and Language Assessment,rehabilitation,100,30,yes,033
+0049,Thyroid Function Test,laboratory,80,15,yes,034
+0050,DEXA Scan,imaging,300,20,no,035
+0051,Wisdom Tooth Extraction,dental,500,120,no,036
+0052,Liver Biopsy,surgery,2500,90,no,037
+0053,Speech Therapy Session,rehabilitation,150,60,yes,038
+0054,General Health Check-up,consultation,200,60,yes,039
+0055,Blood Donation,laboratory,0,60,no,040
+0056,Colonoscopy Screening,surgery,1500,60,no,041
+0057,Ankle Rehabilitation,rehabilitation,80,45,yes,042
+0058,Psychiatric Evaluation,consultation,300,90,yes,043
+0059,Physiotherapy Session,consultation,120,60,yes,044
+0060,Magnetic Resonance Angiography,imaging,800,45,no,045
+0061,Sinus Surgery,surgery,4000,120,no,046
+0062,CT Guided Biopsy,imaging,600,60,no,047
+0063,Group Therapy,rehabilitation,80,90,yes,048
+0064,HIV Test,laboratory,50,20,yes,049
+0065,Deep Cleaning,dental,300,60,yes,050
+0066,Appendix Removal,surgery,7000,180,no,051
+0067,Occupational Therapy Session,rehabilitation,150,60,yes,052
+0068,Psychological Counseling,consultation,250,60,yes,053
+0069,Blood Pressure Test,laboratory,30,10,yes,054
+0070,CT Coronary Angiography,imaging,1000,45,no,055
+0071,Dental Crown,dental,600,90,yes,056
+0072,Spinal Tap,surgery,3500,45,no,057
+0073,Physical Therapy Session,rehabilitation,100,60,yes,058
+0074,Wellness Check-up,consultation,150,45,yes,059
+0075,Stool Test,laboratory,50,15,yes,060
+0076,Liver Transplant,surgery,25000,240,no,061
+0077,Autism Screening,rehabilitation,120,60,yes,062
+0078,Smoking Cessation Counseling,consultation,200,30,yes,063
+0079,Brain MRI,imaging,1200,30,no,064
+0080,Invisalign Treatment,dental,4000,180,no,065
+0081,Heart Bypass Surgery,surgery,15000,240,no,066
+0082,Neurological Evaluation,rehabilitation,200,90,yes,067
+0083,Genetic Testing,laboratory,400,30,yes,068
+0084,Lung Biopsy,surgery,4500,90,no,069
+0085,Speech and Language Therapy,rehabilitation,180,60,yes,070
+0086,Travel Vaccination,preventative,150,30,yes,071
+0087,STD Testing,laboratory,100,20,yes,072
+0088,Abdominal Ultrasound,imaging,500,30,no,073
+0089,Inlay or Onlay,dental,800,90,yes,074
+0090,Appendix Examination,surgery,2000,60,no,075
+0091,Colon Cancer Screening,surgery,1000,60,no,076
+0092,Speech Evaluation,rehabilitation,120,45,yes,077
+0093,Maternity Check-up,consultation,180,60,yes,078
+0094,Chlamydia Test,laboratory,70,15,yes,079
+0095,Bone Density Test,imaging,250,20,no,080
+0096,Tooth Implant,dental,2000,120,no,081
+0097,Hernia Repair,surgery,3000,90,no,082
+0098,Amniocentesis,imaging,600,45,no,083
+0099,Periodontal Treatment,dental,500,60,yes,084
+0100,Obesity Counseling,consultation,150,30,yes,085
+0101,Cervical Cancer Screening,surgery,800,45,no,086
+0102,Occupational Therapy Assessment,rehabilitation,100,30,yes,087
+0103,Comprehensive Metabolic Panel,laboratory,90,20,yes,088
+0104,Head CT Scan,imaging,400,30,no,089
+0105,Root Canal Retreatment,dental,1000,90,yes,090
+0106,Heart Transplant,surgery,50000,360,no,091
+0107,Arthritis Management,rehabilitation,80,60,yes,092
+0108,Nutrition Consultation,consultation,120,45,yes,093
+0109,Lyme Disease Test,laboratory,80,15,yes,094
+0110,Abdominal MRI,imaging,800,45,no,095
+0111,Oral Surgery,surgery,4000,120,no,096
+0112,Physical Therapy Assessment,rehabilitation,150,60,yes,097
+0113,Genetic Counseling,consultation,250,60,yes,098
+0114,Lipid Panel Test,laboratory,60,15,yes,099
+0115,Kidney Transplant,surgery,35000,240,no,100
+0116,Speech and Language Assessment,rehabilitation,120,45,yes,101
+0117,Allergy Immunotherapy,preventative,200,60,yes,102
+0118,Fertility Testing,laboratory,300,30,yes,103
+0119,Brain Surgery,surgery,20000,180,no,104
+0120,PTSD Counseling,rehabilitation,100,60,yes,105
+0121,Dental Veneers,dental,1200,90,yes,106
+0122,Weight Loss Surgery,surgery,15000,180,no,107
+0123,Hand Therapy,rehabilitation,80,60,yes,108
+0124,Diabetes Screening,laboratory,50,15,yes,109
+0125,Abdominal Ultrasound,imaging,500,30,no,110
+0126,Orthodontic Treatment,dental,6000,180,no,111
+0127,Knee Replacement,surgery,20000,120,no,112
+0128,Speech Therapy Session,rehabilitation,150,60,yes,113
+0129,Preconception Counseling,consultation,200,45,yes,114
+0130,Glaucoma Screening,surgery,400,45,no,115
+0131,Occupational Therapy Session,rehabilitation,120,60,yes,116
+0132,Blood Glucose Test,laboratory,30,10,yes,117
+0133,Liver Function Test,laboratory,60,15,yes,118
+0134,Cardiac MRI,imaging,1000,60,no,119
+0135,Dental Bridge,dental,1500,120,yes,120
