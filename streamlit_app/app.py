@@ -113,7 +113,7 @@ for chat in reversed(st.session_state['history']):
         circular_human_image = crop_to_circle(human_image)
         st.image(circular_human_image, width=125)
     with col2_q:
-        st.text_area("Q:", value=chat["question"], height=50, key=str(chat)+"q", disabled=True)
+        st.text_area("Q:", value=chat["question"], height=68, key=str(chat)+"q", disabled=True)
 
     # Creating columns for Answer
     col1_a, col2_a = st.columns([2, 10])

@@ -30,9 +30,9 @@ def read_csv(file_path):
 def main():
     # Informações de conexão com o banco de dados PostgreSQL
     dbname = 'medical_procedures'
-    user = 'postgres'
-    password = 'Genai2024'
-    host = 'database-1.cykfubzsemsi.us-east-1.rds.amazonaws.com'  # Por exemplo, localhost
+    user = 'datahandsonmds'
+    password = '0560Zf#q^4^hq3pc'
+    host = 'transactional.cluster-cihooyesuplm.us-east-1.rds.amazonaws.com'  # Por exemplo, localhost
     port = '5432'  # Por exemplo, 5432
 
     # Conecta ao banco de dados

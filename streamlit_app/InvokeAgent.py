@@ -18,8 +18,8 @@ import sys
 #echo $AWS_SESSION_TOKEN
 #os.environ["AWS_PROFILE"] = "agent-demo"
 
-agentId = "AGENT_ID" #INPUT YOUR AGENT ID HERE
-agentAliasId = "AGENT_ALIAS_ID" # Hits draft alias, set to a specific alias id for a deployed version
+agentId = "JQI5VIXWAN" #INPUT YOUR AGENT ID HERE
+agentAliasId = "L2D0N8417F" # Hits draft alias, set to a specific alias id for a deployed version
 
 theRegion = "us-east-1"
 os.environ["AWS_REGION"] = theRegion
